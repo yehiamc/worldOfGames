@@ -8,7 +8,7 @@ def test_scores_service(app_url):
     driver.get(app_url)
     sleep(1)
     text = driver.find_element_by_id("score").text
-    if int(text) >= 0 and int(text) <= 100:
+    if int(text) >= 0 and int(text) <= 1000:
         driver.close()
         return True
     else:

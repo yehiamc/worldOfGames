@@ -1,5 +1,5 @@
 def add_score(points):
-    scores_file = open("/Users/yehiamc/Desktop/Scores.txt", 'r+')
+    scores_file = open("/Scores.txt", 'r+')
     cur_score = scores_file.read()
 
     int_score = 0
